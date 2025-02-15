@@ -5,14 +5,14 @@
       "type": "blobTrigger",
       "direction": "in",
       "path": "raw/{name}",
-      "connection": "AzureWebJobsStorage"
+      "connection": "your_connection"
     },
     {
       "name": "outputBlob",
       "type": "blob",
       "direction": "out",
-      "path": "convertmp3totext/{name}.txt",
-      "connection": "AzureWebJobsStorage"
+      "path": "yourpathname/{name}.txt",
+      "connection": "your_azure_connection"
     }
   ]
 }
