@@ -5,7 +5,7 @@ import io
 import os
 
 
-API_KEY = os.getenv("your_api_key_here")  # Récupération sécurisée
+API_KEY = os.getenv("your_api_key_here")  
 ENDPOINT = os.getenv("your_endpoint_here")
 API_VERSION = "your_api_version_here"
 model_name = "your_model_name_here"  
